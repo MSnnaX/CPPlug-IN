@@ -10,4 +10,11 @@
 // 添加要在此处预编译的标头
 #include "framework.h"
 
+// For Creo parametric6
+#include "ProToolkit.h"
+#include "ProMenu.h"
+#include "ProMenuBar.h"
+#include "ProUtil.h"
+#include "ProTool.h"
+
 #endif //PCH_H

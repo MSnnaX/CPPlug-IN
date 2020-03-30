@@ -118,10 +118,30 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Program Files\PTC\Creo 6.0.4.0\Common Files\otk\otk_cpp\include;C:\Program Files\PTC\Creo 6.0.4.0\Common Files\protoolkit\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>.\CPPlug-IN.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>C:\Program Files\PTC\Creo 6.0.4.0\Common Files\otk\otk_cpp\x86e_win64\obj;C:\Program Files\PTC\Creo 6.0.4.0\Common Files\protoolkit\x86e_win64\obj;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>protk_dllmd_NU.lib;
+otk_cpp_md.lib;
+otk_222_md.lib;
+ucore.lib;
+udata.lib;
+kernel32.lib;
+user32.lib;
+wsock32.lib;
+advapi32.lib;
+mpr.lib;
+winspool.lib;
+netapi32.lib;
+psapi.lib;
+gdi32.lib;
+shell32.lib;
+comdlg32.lib;
+ole32.lib;
+ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
