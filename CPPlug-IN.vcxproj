@@ -79,6 +79,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>MSnnaXPE</TargetName>
+    <IncludePath>C:\Program Files\PTC\Creo 6.0.4.0\Common Files\otk\otk_cpp\include;C:\Program Files\PTC\Creo 6.0.4.0\Common Files\protoolkit\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\PTC\Creo 6.0.4.0\Common Files\otk\otk_cpp\x86e_win64\obj;C:\Program Files\PTC\Creo 6.0.4.0\Common Files\protoolkit\x86e_win64\obj;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
